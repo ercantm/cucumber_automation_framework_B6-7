@@ -62,4 +62,15 @@ public class GoogleSearchStepDefinitions {
         Assert.assertTrue(title.contains("bmw"));
     }
 
+    @When("user search for {string}")
+    public void user_search_for(String string) {
+        googlePage.searchBox.sendKeys(string+Keys.ENTER);
+    }
+
+    @Then("verify the result has {string}")
+    public void verify_the_result_has(String string) {
+        String title=Driver.getDriver().getTitle().toLowerCase();
+        Assert.assertTrue(title.contains(string));
+    }
+
 }
