@@ -13,3 +13,4 @@ Feature:user should add data
     And user clicks on the create button
     And user search for the first name
     Then verify the name field contains the firstname
+    Then user closes the application

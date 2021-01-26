@@ -73,4 +73,8 @@ public class GoogleSearchStepDefinitions {
         Assert.assertTrue(title.contains(string));
     }
 
+    @Then("user closes the application")
+    public void user_closes_the_application() {
+        Driver.closeDriver();
+    }
 }
