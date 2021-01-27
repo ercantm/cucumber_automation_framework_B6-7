@@ -1,4 +1,4 @@
-@dttable1
+@dt
 Feature:user should add data
   Scenario: data tables 1
     Given user is on the datatables page

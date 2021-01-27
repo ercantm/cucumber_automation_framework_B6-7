@@ -1,3 +1,4 @@
+@regression
 Feature: User should find related product on google search
   Background: going to the google home page
     Given user is on the google page

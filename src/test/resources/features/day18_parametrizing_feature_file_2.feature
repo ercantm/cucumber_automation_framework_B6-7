@@ -1,4 +1,4 @@
-@wip
+@regression
 Feature:user should add data
   Scenario Outline: data tables 1
     Given user is on the datatables page
