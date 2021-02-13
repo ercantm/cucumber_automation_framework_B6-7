@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 //        Path of step definitions folder
         glue = "stepdefinitions",
 //        run only tagged scenarios in the features folder
-        tags = "@dttables",
+        tags = "@wip",
 //      run the feature without browser.
         dryRun = false
 )

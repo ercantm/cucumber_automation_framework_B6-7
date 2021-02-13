@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 //        Path of step definitions folder
         glue = "database_stepdefinitions",
 //        run only tagged scenarios in the features folder
-        tags = "@dbread",
+        tags = "@dbcreate",
 //      run the feature without browser.
         dryRun = false
 )

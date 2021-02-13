@@ -49,10 +49,10 @@ public class DBRead_StepDefinititions {
         String string2=resultSet.getString(string);
         System.out.println(string2);
 
-        resultSet.absolute(5);//GO TO ROW 5
-        resultSet.absolute(10);//GO TO ROW 10
-        resultSet.first();//GO TO FIRST ROW
-        resultSet.last();//GO TO LAST ROW
+//        resultSet.absolute(5);//GO TO ROW 5
+//        resultSet.absolute(10);//GO TO ROW 10
+//        resultSet.first();//GO TO FIRST ROW
+//        resultSet.last();//GO TO LAST ROW
 
 
 //      This runs while there is a data in the next row
